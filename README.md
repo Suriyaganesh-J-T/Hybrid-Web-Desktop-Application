@@ -242,6 +242,6 @@ Focus is on correctness, clarity, and maintainability.
 
 Author
 
-Suriya Ganesh
-Computer Science and Engineering
-Internship Screening Project
+-Suriyaganesh
+-Computer Science and Engineering
+-Internship Screening Project
