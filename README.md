@@ -227,21 +227,31 @@ API Endpoints
 Demo Video
 
 A short demo video (2–3 minutes) demonstrates:
+
 Login flow
+
 CSV upload
+
 Data analysis and visualization
+
 PDF report generation
+
 Web and Desktop application usage
 
 Notes
 
 Both Web and Desktop applications use the same backend APIs.
+
 The project strictly follows the screening task requirements.
+
 UI is intentionally kept simple and professional.
+
 Focus is on correctness, clarity, and maintainability.
 
 Author
 
--Suriyaganesh
--Computer Science and Engineering
--Internship Screening Project
+Suriyaganesh
+
+Computer Science and Engineering
+
+Internship Screening Project
