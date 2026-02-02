@@ -185,15 +185,20 @@ chemical-equipment-visualizer/
 
 ```
 
-###Setup Instructions
-##1. Backend Setup (Django)
+Setup Instructions
+1. Backend Setup (Django)
 
--cd backend
--python -m venv venv
--venv\Scripts\activate      # Windows
--pip install -r requirements.txt
--python manage.py migrate
--python manage.py runserver
+cd backend
+
+python -m venv venv
+
+venv\Scripts\activate      # Windows
+
+pip install -r requirements.txt
+
+python manage.py migrate
+
+python manage.py runserver
 
 ---
 
@@ -203,7 +208,9 @@ http://127.0.0.1:8000/
 2. Web Frontend Setup (React)
 
 cd web
+
 npm install
+
 npm start
 
 Web application will run at:
@@ -212,7 +219,9 @@ http://localhost:3000/
 3. Desktop Application Setup (PyQt5)
 
 cd desktop
+
 pip install PyQt5 matplotlib requests
+
 python app.py
 
 API Endpoints
