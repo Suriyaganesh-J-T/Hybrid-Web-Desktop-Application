@@ -183,6 +183,8 @@ chemical-equipment-visualizer/
 ├── demo_video/       # Demo recording
 └── README.md
 
+```
+
 Setup Instructions
 1. Backend Setup (Django)
 
