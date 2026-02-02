@@ -185,16 +185,17 @@ chemical-equipment-visualizer/
 
 ```
 
-Setup Instructions
-1. Backend Setup (Django)
+###Setup Instructions
+##1. Backend Setup (Django)
 
-cd backend
-python -m venv venv
-venv\Scripts\activate      # Windows
-pip install -r requirements.txt
-python manage.py migrate
-python manage.py runserver
+-cd backend
+-python -m venv venv
+-venv\Scripts\activate      # Windows
+-pip install -r requirements.txt
+-python manage.py migrate
+-python manage.py runserver
 
+---
 
 Backend will run at:
 http://127.0.0.1:8000/
