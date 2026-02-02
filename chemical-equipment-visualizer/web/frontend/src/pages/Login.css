@@ -1,0 +1,94 @@
+/* ===== Color System (Professional & Calm) ===== */
+:root {
+  --primary: #1f4fd8;        /* deep blue */
+  --primary-light: #e8efff;  /* very light blue */
+  --text-main: #1f2937;
+  --text-muted: #6b7280;
+  --border: #d1d5db;
+  --background: #f2f4f7;     /* soft grey */
+}
+
+/* ===== Page Layout ===== */
+.login-container {
+  min-height: 100vh;
+  background: var(--background);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* ===== Login Card ===== */
+.login-card {
+  width: 360px;
+  background: #ffffff;
+  padding: 28px 26px;
+  border-radius: 6px; /* subtle, not rounded-modern */
+  border: 1px solid var(--border);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+/* ===== Icon ===== */
+.login-icon {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: var(--primary);
+}
+
+/* ===== Title ===== */
+.login-card h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text-main);
+  margin-bottom: 4px;
+}
+
+/* ===== Subtitle ===== */
+.login-subtitle {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-bottom: 22px;
+}
+
+/* ===== Inputs ===== */
+.login-input {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 14px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+  outline: none;
+  background: #ffffff;
+}
+
+.login-input:focus {
+  border-color: var(--primary);
+  background: var(--primary-light);
+}
+
+/* ===== Button ===== */
+.login-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+  background: var(--primary);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background: #173fb8;
+}
+
+/* ===== Mobile Friendly ===== */
+@media (max-width: 420px) {
+  .login-card {
+    width: 90%;
+    padding: 24px;
+  }
+}
